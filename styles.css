@@ -1,0 +1,54 @@
+body{
+    background: lightgray;
+    height: 100vh;
+    display:flex;
+
+}
+.container{
+    display: inline-block;
+    align-self: center;
+    margin-left:30%;
+    text-align: center;
+
+}
+#img{
+    height: 300px;
+    width:300px;
+}
+
+.display, #name{
+    margin:0;
+    size:30px;
+    height: 30px;
+    background:black;
+    color: white;
+}
+
+.list {
+    margin:0;
+    padding: 0 10px;;
+    text-align: center;
+    display: inline-block;
+    background:brown;
+    list-style-type: none;
+}
+
+.list li {
+    line-height: 3;
+    color: white;
+    border-bottom: 1px solid red;
+}
+
+.admin-form{
+    display: none;
+    list-style-type: none;
+    text-align: left;
+    width:170px;
+    margin-left: 55%;
+    background:lightblue;
+    
+}
+
+.show{
+    display: block;
+}
